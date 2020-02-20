@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Squada+One|Raleway:600|&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans;400,700|Squada+One|Raleway:600|&display=swap');
 
 .container {
     text-align: center;
@@ -13,10 +13,13 @@
     padding-bottom: 5em;
 }
 
+nav {
+    margin-bottom: 0;
+}
 
 .navbar img{
-    width: 10em;
-    height: 4em;
+    max-width: 10em;
+    height: auto;
 }
 
 .section-1-title {
@@ -33,7 +36,7 @@
     text-shadow: 7px 7px 0 rgb(8, 51, 84);
 }
 
-@media screen and (min-width: 451px) {
+@media (min-width: 451px) {
     .section-1-title .sub-head{
         font-size: 3em;
     }
@@ -42,12 +45,25 @@
         font-size: 10em;
     }
 }
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .section-1-title .sub-head{
         font-size: 1.3em;
     }
     .section-1-title .head {
         font-size: 5em;
+    }
+
+    .section-1-title {
+        margin-top: 2em;
+    }
+
+    .navbar {
+        display: inline;
+        text-align: center;
+    }
+
+    .navbar img {
+        padding-top: 3em;
     }
 }
 
@@ -58,8 +74,8 @@
 
 .azure-logo {
     margin-top: 3em;
-    width: 30em;
-    height: 10em;
+    width: 24em;
+    height: 8em;
 }
 
 .subtitle {
@@ -70,7 +86,7 @@
     font-size: 1.3em;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .azure-logo {
         width: 15em;
         height: 5em;
@@ -87,6 +103,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: 'Open Sans', sans-serif;
 }
 
 .section-2 .container {
@@ -108,7 +126,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .azure-head, .event-detail {
         font-size: 2em;
     }
@@ -124,8 +142,13 @@
     font-size: 1.22em;
 }
 
-@media screen and (max-width: 450px) {
+@media (max-width: 450px) {
     .row .about-102, .row .about-event {
         font-size: 1em;
+        text-align: left;
     } 
+}
+
+.highlight {
+    color: rgba(42,116,160,1)
 }
