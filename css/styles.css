@@ -79,10 +79,14 @@
 .section-2 {
     background-color: white;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-2 .container {
     padding-top: 2em;
+
 }
 
 .section-2 h3 {
