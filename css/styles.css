@@ -197,12 +197,8 @@ nav {
     background: linear-gradient(90deg, rgba(35,82,128,1) 0%, rgba(37,100,138,1) 51%, rgba(42,116,148,1) 100%);
     background-size: cover;
     width: 100%;
-    height: 50vh;
+    /* height: 100vh; */
     padding-bottom: 5em;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-3 .container{
@@ -212,4 +208,24 @@ nav {
 .btn-reg{
   color: rgb(35,82,128);
   background: rgb(255,255,255);
+}
+.section-3-title{
+  margin-top: 1em;
+}
+
+.ccform{
+  width: 300px;
+  height: 820px;
+}
+
+@media screen and (min-width: 450px){
+  .ccform{
+    width: 440px;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .ccform{
+    width: 780px;
+  }
 }
