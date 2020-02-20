@@ -205,6 +205,11 @@ nav {
     padding-top: 1em;
 }
 
+.section-3 h3 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
 .btn-reg{
   color: rgb(35,82,128);
   background: rgb(255,255,255);
@@ -228,4 +233,10 @@ nav {
   .ccform{
     width: 780px;
   }
+}
+
+@media screen and (max-width: 450px) {
+    .section-3 h3 {
+        font-size: 2em;
+    }
 }
