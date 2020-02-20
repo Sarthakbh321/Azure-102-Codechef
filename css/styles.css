@@ -109,7 +109,6 @@ nav {
 
 .section-2 .container {
     padding-top: 2em;
-
 }
 
 .section-2 h3 {
@@ -151,4 +150,23 @@ nav {
 
 .highlight {
     color: rgba(42,116,160,1);
+}
+
+.incharge-section {
+    padding-top: 5em;
+    font-family: 'Open Sans', sans-serif;
+
+    background: rgb(35,82,128);
+    background: linear-gradient(90deg, rgba(35,82,128,1) 0%, rgba(37,100,138,1) 51%, rgba(42,116,148,1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.incharge-section .container {
+    background-color: white;
+}
+
+.incharge-head {
+    font-weight: bold;
+    border-bottom: solid rgba(42,116,160,1) 3px;
 }
