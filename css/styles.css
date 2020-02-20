@@ -145,7 +145,7 @@ nav {
     .row .about-102, .row .about-event {
         font-size: 1em;
         text-align: left;
-    } 
+    }
 }
 
 .highlight {
@@ -156,17 +156,33 @@ nav {
     padding-top: 5em;
     font-family: 'Open Sans', sans-serif;
 
-    background: rgb(35,82,128);
-    background: linear-gradient(90deg, rgba(35,82,128,1) 0%, rgba(37,100,138,1) 51%, rgba(42,116,148,1) 100%);
     width: 100%;
-    height: 100vh;
+    height: 50vh;
 }
 
-.incharge-section .container {
-    background-color: white;
-}
 
 .incharge-head {
     font-weight: bold;
     border-bottom: solid rgba(42,116,160,1) 3px;
+}
+.section-3 {
+    background: rgb(35,82,128);
+    background: linear-gradient(90deg, rgba(35,82,128,1) 0%, rgba(37,100,138,1) 51%, rgba(42,116,148,1) 100%);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    padding-bottom: 5em;
+}
+
+.section-3 .container{
+    padding-top: 1em;
+}
+
+.section-3-title{
+  margin-top: 7em;
+}
+
+.btn-reg{
+  color: rgb(35,82,128);
+  background: rgb(255,255,255);
 }
