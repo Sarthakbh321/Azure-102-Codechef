@@ -51,6 +51,7 @@
     }
 }
 
+
 .container {
     text-align: center;
 }
@@ -66,13 +67,17 @@
     color: white;
     margin-bottom: 0;
     font-family: 'Raleway', sans-serif;
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 @media screen and (max-width: 450px) {
     .azure-logo {
         width: 15em;
         height: 5em;
+    }
+
+    .subtitle {
+        font-size: 1em;
     }
 }
 
