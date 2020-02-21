@@ -81,6 +81,12 @@ nav {
     font-size: 1.3rem;
 }
 
+.msp-logo{
+  margin-top: 1rem;
+  width: 8rem;
+  height: 8rem;
+}
+
 @media (max-width: 450px) {
     .azure-logo {
         width: 15rem;
@@ -94,7 +100,7 @@ nav {
 
 .section-2 {
     background-color: white;
-    min-height: 100vh;
+    min-height: 50vh;
     display: flex;
     justify-content: center;
     align-itrems: center;
@@ -148,11 +154,12 @@ nav {
 }
 
 .incharge-section {
-    padding-top: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     font-family: 'Open Sans', sans-serif;
 
     width: 100%;
-    min-height: 50vh;
+    min-height: 30vh;
 }
 
 
@@ -173,7 +180,7 @@ nav {
 
 }
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
     .incharge-head {
         font-size: 2rem;
     }
